@@ -10,6 +10,8 @@
 		607164302A4A42F000F9CED0 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6071642F2A4A42F000F9CED0 /* WeatherView.swift */; };
 		607164322A4A43CB00F9CED0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607164312A4A43CB00F9CED0 /* ModelData.swift */; };
 		607164342A4A441100F9CED0 /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 607164332A4A441100F9CED0 /* WeatherData.json */; };
+		607164372A4A44AA00F9CED0 /* Convert+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607164362A4A44AA00F9CED0 /* Convert+Extensions.swift */; };
+		607164392A4A44C000F9CED0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607164382A4A44C000F9CED0 /* View+Extensions.swift */; };
 		60C94C4B2A48B2C8004044E6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C4A2A48B2C8004044E6 /* WelcomeView.swift */; };
 		60C94C4D2A48B4BF004044E6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C4C2A48B4BF004044E6 /* LoadingView.swift */; };
 		60C94C502A48B61A004044E6 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C4F2A48B61A004044E6 /* WeatherManager.swift */; };
@@ -25,6 +27,8 @@
 		6071642F2A4A42F000F9CED0 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		607164312A4A43CB00F9CED0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		607164332A4A441100F9CED0 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		607164362A4A44AA00F9CED0 /* Convert+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convert+Extensions.swift"; sourceTree = "<group>"; };
+		607164382A4A44C000F9CED0 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		60C94C4A2A48B2C8004044E6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		60C94C4C2A48B4BF004044E6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		60C94C4F2A48B61A004044E6 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
@@ -48,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607164352A4A449E00F9CED0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				607164362A4A44AA00F9CED0 /* Convert+Extensions.swift */,
+				607164382A4A44C000F9CED0 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		60C94C4E2A48B60E004044E6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +116,7 @@
 		60D22FB72A4879A400758F2D /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				607164352A4A449E00F9CED0 /* Extensions */,
 				60C94C512A48B625004044E6 /* Scene */,
 				60C94C4E2A48B60E004044E6 /* Network */,
 				60D22FC62A487A7200758F2D /* Manager */,
@@ -204,11 +218,13 @@
 			files = (
 				60C94C502A48B61A004044E6 /* WeatherManager.swift in Sources */,
 				60D22FBB2A4879A400758F2D /* ContentView.swift in Sources */,
+				607164392A4A44C000F9CED0 /* View+Extensions.swift in Sources */,
 				607164322A4A43CB00F9CED0 /* ModelData.swift in Sources */,
 				60D22FB92A4879A400758F2D /* WeatherApp.swift in Sources */,
 				60D22FC82A487A8300758F2D /* LocationManager.swift in Sources */,
 				60C94C4D2A48B4BF004044E6 /* LoadingView.swift in Sources */,
 				60C94C4B2A48B2C8004044E6 /* WelcomeView.swift in Sources */,
+				607164372A4A44AA00F9CED0 /* Convert+Extensions.swift in Sources */,
 				60C94C552A48B6AC004044E6 /* Weather.swift in Sources */,
 				607164302A4A42F000F9CED0 /* WeatherView.swift in Sources */,
 			);
